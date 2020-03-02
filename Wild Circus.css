@@ -1,0 +1,209 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+
+body
+{
+  	background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/2468831/3267/5000/m1/fpnw/wm0/6-.jpg?1490739309&s=490fde11a47a5731abec83b2e3cf5e15");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  margin: 3% 5%;
+}
+
+/* Style du nom du site */
+h1
+{
+	text-align: center;
+	font-size: 100px;
+  font-family: "Amatic SC";
+	text-shadow: -5px -4px 4px #BF1522;
+}
+
+/* Style des noms de catégories */
+h2
+{
+  text-align: center;
+  font-size: 50px;
+  font-family: "Amatic SC";
+  text-shadow: -5px -4px 4px #5289B0;
+}
+
+/* Style de la barre de navigation */
+nav
+{
+	background-color: #BF1522;
+	border: 1px solid white;
+}
+
+.nav-barre
+{
+	list-style-type: none; /* Retire les "puces" */
+	padding: 0; /* Colle le texte a gauche */
+	margin: 0;
+}
+
+.lien-nav
+{
+	display: inline;
+  font-family: "Amatic SC";
+  font-size: 30px;
+}
+
+.lien-nav a
+{
+	display: inline-block;
+	color: #FEEEC1;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.lien-nav a:hover
+{
+	background-color: #5289B0;
+}
+
+/* Style Performances */
+.perf
+{
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.perf h3
+{
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: -4px -4px 4px #BF1522;
+}
+
+.perf p
+{
+  font-size: 17.5px;
+  color: black;
+}
+
+#pp1
+{
+  text-align: left;  
+}
+
+#pp2
+{
+  text-align: center;  
+}
+
+#pp3
+{
+  text-align: right;
+}
+
+/* Style du a propos */
+.about-us p
+{
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Style du tableau */
+table
+{
+	border-collapse: collapse;
+	overflow: hidden;
+  width: 100%;
+}
+
+th, td 
+{
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+td 
+{
+	height: 50px;
+	vertical-align: center;
+}
+
+/* Style du formulaire de contact */
+form
+{
+  border-radius: 5px;
+  background-color: #5289B0;
+  padding: 10px;
+}
+
+label
+{
+  color: #FEEEC1;
+}
+
+.form-gauche
+{
+  float: left;
+  width: 25%;
+  margin-top: 10px;
+}
+
+.form-droite
+{
+  float: left;
+  width: 75%;
+  margin-top: 10px;
+}
+
+input
+{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+textarea
+{
+  width: 100%;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 150px;
+}
+
+button
+{
+  padding: 10px;
+  margin: 10px 0 0 25%;
+  width: 50%;
+  color: #FEEEC1;
+  background: #BF1522;
+  border: 1px solid black;
+}
+
+/* Style du footer */
+footer
+{
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer a
+{
+  text-decoration: none;
+}
+
+.nom
+{
+  font-weight: bold;
+}
+
+.prenom
+{
+  font-style: italic;
+}
